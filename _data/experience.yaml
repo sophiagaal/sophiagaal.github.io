@@ -1,30 +1,30 @@
 experiences:
-- place: "KAIST Language & Knowledge Lab"
+- place: "Korea Advanced Institute of Science and Technology"
   time: "Mar. 2023 - Present"
   title: "M.S. Student (Advisor: Minjoon Seo)"
   subtitle: "Working on Commonsense Reasoning and Instruction Following LMs."
   category: "school"
 
-- place: "Language and Knowledge Lab, Korea Advanced Institute of Science and Technology"
+- place: "LK Lab @ KAIST AI"
   time: "Jul. 2022 - Feb. 2023"
   title: "Research Intern (Mentor: Joel Jang)"
-  subtitle: "Worked on building distributed language models to tackle the weakness of Meta Learning."
+  subtitle: "Worked on building distributed expert language models to tackle the weakness of Meta Learning."
   category: "work"
 
-- place: "Conversational Intelligence Lab, Korea Advanced Institute of Science and Technology"
+- place: "Convei Lab @ Yonsei"
   time: "Jan. 2022 - May. 2022"
   title: "Undergraduate Research (Advisor: Jinyoung Yeo)"
-  subtitle: "Worked on injecting commonsense knowledge in LMs to generate more human-like fluent summaries."
+  subtitle: "Worked on injecting commonsense knowledge into LMs in order to generate more human-like, fluent summaries."
   category: "work"
 
-- place: "Data Intelligence Lab, Seoul National University"
+- place: "Data Intelligence Lab @ SNU"
   time: "Sep. 2021 - Jun. 2022"
   title: "Research Intern (Mentor: Dohyun Lee)"
   subtitle: "Worked on building a multilingual language model for low-resource languages
 via continual cross-lingual transfer during pre-training."
   category: "work"
 
-- place: "Soft Computing Lab, Yonsei University"
+- place: "Soft Computing Lab @ Yonsei"
   time: "Apr. 2021 - Aug. 2021"
   title: "Research Intern (Mentor: Seok-Jun Buu)"
   subtitle: "Worked on building neural networks that transform unstructured documents into tabular data."
