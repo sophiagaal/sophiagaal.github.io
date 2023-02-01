@@ -8,12 +8,12 @@ experiences:
 - place: "LK Lab @ KAIST AI"
   time: "Jul. 2022 - Feb. 2023"
   title: "Research Intern (Mentor: Joel Jang)"
-  subtitle: "Worked on building distributed expert language models to tackle the weakness of Meta Learning."
+  subtitle: "Worked on building distributed expert language models to tackle the weakness of Multi-Task Learning based Instruction Tuning."
   category: "work"
 
 - place: "Convei Lab @ Yonsei"
   time: "Jan. 2022 - May. 2022"
-  title: "Undergraduate Research (Advisor: Jinyoung Yeo)"
+  title: "Undergraduate Research (Mentor: Chaehyeong Kim, Advisor: Jinyoung Yeo)"
   subtitle: "Worked on injecting commonsense knowledge into LMs in order to generate more human-like, fluent summaries."
   category: "work"
 
