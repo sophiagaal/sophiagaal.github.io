@@ -2,7 +2,7 @@ papers:
   - title: "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization"
     image: "/assets/publications/2022_coling/SICK_overview.png"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Hyungjoo Chae, Chaehyeong Kim, Seung-won Hwang, Jinyoung Yeo"
-    venue: "The 29th International Conference on Computational Linguistics"
+    venue: "The 29th International Conference on Computational Linguistics (COLING 2022)"
     paper_pdf: "https://arxiv.org/abs/2209.00930"
     code: "https://github.com/SeungoneKim/SICK_Summarization"
     selected: y
