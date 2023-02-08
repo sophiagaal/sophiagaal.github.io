@@ -1,6 +1,6 @@
 papers:
   - title: "Exploring the Benefits of Training Expert Language Models over Instruction Tuning"
-    image: "/assets/publications/2022_coling/SICK_overview.png"
+    image: "/assets/publications/2023_icml/roe_figure.PNG"
     authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Doyoung Kim, Lajanugen Logeswaran, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2302.03202"
