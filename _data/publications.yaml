@@ -7,6 +7,14 @@ papers:
     code: "https://github.com/joeljang/ELM"
     selected: y
   
+  - title: "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification"
+    image: "/assets/publications/2023_eacl/cotever.PNG"
+    authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Doyoung Kim, Lajanugen Logeswaran, Moontae Lee, Kyungjae Lee, Minjoon Seo"
+    venue: "The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023 Demo)"
+    paper_pdf: ""
+    code: ""
+    selected: y
+
   - title: "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization"
     image: "/assets/publications/2022_coling/SICK_overview.png"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Hyungjoo Chae, Chaehyeong Kim, Seung-won Hwang, Jinyoung Yeo"
