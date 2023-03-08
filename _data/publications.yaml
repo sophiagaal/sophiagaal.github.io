@@ -11,8 +11,8 @@ papers:
     image: "/assets/publications/2023_eacl/cotever.PNG"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Yul Jang, Hyungjoo Chae, Jinyoung Yeo"
     venue: "The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023 Demo)"
-    paper_pdf: ""
-    code: ""
+    paper_pdf: "https://arxiv.org/abs/2303.03628"
+    code: "https://github.com/SeungoneKim/CoTEVer"
     selected: y
 
   - title: "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization"
