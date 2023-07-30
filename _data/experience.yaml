@@ -1,8 +1,14 @@
 experiences:
+- place: "Language Lab @ Naver AI Lab"
+  time: "Jul. 2023 - Present"
+  title: "Research Intern (Mentor: Jamin Shin)"
+  subtitle: "Working on aligning LMs with multiple different fine-grained rewards."
+  category: "work"
+
 - place: "KAIST AI"
   time: "Mar. 2023 - Present"
   title: "M.S. in Artificial Intelligence (Advisor: Minjoon Seo)"
-  subtitle: "Working on Aligning LMs with Human Values (Alignment Problem)."
+  subtitle: "Working on aligning LMs with human values (Alignment Problem)."
   category: "school"
 
 - place: "LK Lab @ KAIST AI"
@@ -22,12 +28,6 @@ experiences:
   title: "Research Intern (Mentor: Dohyun Lee)"
   subtitle: "Worked on building a multilingual language model for low-resource languages
 via continual cross-lingual pre-training."
-  category: "work"
-
-- place: "Soft Computing Lab @ Yonsei"
-  time: "Apr. 2021 - Aug. 2021"
-  title: "Research Intern (Mentor: Seok-Jun Buu)"
-  subtitle: "Worked on building neural networks that transform unstructured documents into tabular data."
   category: "work"
 
 - place: "Yonsei University"
