@@ -61,4 +61,4 @@ papers:
     venue: "Annual Conference of Korean Information Processing Society 2021 (ACK 2021)"
     paper_pdf: "http://manuscriptlink-society-file.s3.amazonaws.com/kips/conference/ack2021/abs/KIPS_C2021B0211.pdf"
     code: "https://github.com/SeungoneKim/SGMLP"
-    selected: y
+    selected: n
