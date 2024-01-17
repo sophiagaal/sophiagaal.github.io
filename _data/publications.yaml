@@ -1,13 +1,12 @@
 papers:
   - title: "LangBridge: Multilingual Reasoning without Multilingual Supervision"
-    image: "/assets/publications/2024_acl_langbridge/langbridge.png"
     authors: "Dongkeun Yoon, Joel Jang, Sungdong Kim, <b><u>Seungone Kim</u></b>, Sheikh Shafayat, Minjoon Seo"
     venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2401.06591"
     code: "https://github.com/kaistAI/LangBridge"
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
-    image: "/assets/publications/2024_acl_prometheus_vision/vlm_as_a_judge.png"
     authors: "Seongyun Lee, <b><u>Seungone Kim</u></b>, Sue Hyun Park, Geewook Kim, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
@@ -15,14 +14,13 @@ papers:
     selected: y
 
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
-    image: "/assets/publications/2024_naacl/multi_task_inference.png"
     authors: "Guijin Son, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>"
     venue: "Preprint Under Review"
     paper_pdf: "https://drive.google.com/file/d/12MqVlNUeMOzrUVaidirm-fddBOuaHU14/view"
+    code: "https://github.com/guijinSON/compositional_instructions"
     selected: y
 
   - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
-    image: "/assets/publications/2024_icml_rlphf/rlphf.png"
     authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Bill Yuchen Lin, Yizhong Wang, Jack Hessel, Luke Zettlemoyer, Hannaneh Hajishirzi, Yejin Choi, Prithviraj Ammanabrolu"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2310.11564"
@@ -30,7 +28,6 @@ papers:
     selected: y
 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
-    image: "/assets/publications/2024_iclr_prometheus/prometheus.png"
     authors: "<b><u>Seungone Kim</u></b>, Jamin Shin, Yejin Cho, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, Minjoon Seo"
     venue: "ICLR 2024 & NeurIPS 2023 Instruction Following Workshop"
     paper_pdf: "https://arxiv.org/abs/2310.08491"
@@ -38,7 +35,6 @@ papers:
     selected: y
 
   - title: "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets"
-    image: "/assets/publications/2024_iclr_flask/flask.PNG"
     authors: "Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, <b><u>Seungone Kim</u></b>, Yongrae Jo, James Thorne, Juho Kim, Minjoon Seo"
     venue: "ICLR 2024 & NeurIPS 2023 Instruction Following Workshop"
     paper_pdf: "https://arxiv.org/abs/2307.10928"
@@ -46,7 +42,6 @@ papers:
     selected: y
 
   - title: "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-tuning"
-    image: "/assets/publications/2023_emnlp/cot_collection.PNG"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Doyoung Kim, Joel Jang, Seonghyeon Ye, Jamin Shin, Minjoon Seo"
     venue: "EMNLP 2023"
     paper_pdf: "https://arxiv.org/abs/2305.14045"
@@ -54,7 +49,6 @@ papers:
     selected: y
 
   - title: "Exploring the Benefits of Training Expert Language Models over Instruction Tuning"
-    image: "/assets/publications/2023_icml/roe_figure.PNG"
     authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Doyoung Kim, Lajanugen Logeswaran, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "ICML 2023"
     paper_pdf: "https://arxiv.org/abs/2302.03202"
@@ -62,7 +56,6 @@ papers:
     selected: y
   
   - title: "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification"
-    image: "/assets/publications/2023_eacl/cotever.PNG"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Yul Jang, Hyungjoo Chae, Jinyoung Yeo"
     venue: "EACL 2023"
     paper_pdf: "https://arxiv.org/abs/2303.03628"
@@ -70,7 +63,6 @@ papers:
     selected: y
 
   - title: "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization"
-    image: "/assets/publications/2022_coling/SICK_overview.png"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Hyungjoo Chae, Chaehyeong Kim, Seung-won Hwang, Jinyoung Yeo"
     venue: "COLING 2022"
     paper_pdf: "https://arxiv.org/abs/2209.00930"
@@ -78,7 +70,6 @@ papers:
     selected: y
 
   - title: "SG-MLP: Switch Gated Multi-Layer Perceptron Model for Natural Language Understanding"
-    image: "/assets/publications/2021_ack/sgmlp_figure.PNG"
     authors: "Guijin Son, <b><u>Seungone Kim</u></b>, Se june Joo, Woojin Cho, JeongEun Nah"
     venue: "Annual Conference of Korean Information Processing Society 2021"
     paper_pdf: "http://manuscriptlink-society-file.s3.amazonaws.com/kips/conference/ack2021/abs/KIPS_C2021B0211.pdf"
