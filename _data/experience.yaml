@@ -2,13 +2,13 @@ experiences:
 - place: "Language Lab @ Naver AI Lab"
   time: "Mar. 2023 - Present"
   title: "Research Intern (Mentor: Jamin Shin)"
-  subtitle: "Worked on building an open-sourced evaluator LM that could replace GPT-4 Evaluation."
+  subtitle: "Worked on building an open-sourced evaluator LM & VLM that could potentially replace GPT-4 and GPT-4V Evaluation."
   category: "work"
 
 - place: "KAIST AI"
   time: "Mar. 2023 - Present"
   title: "M.S. in Artificial Intelligence (Advisor: Minjoon Seo)"
-  subtitle: "Working on improving the reasoning capability of LLMs."
+  subtitle: "Working on inducing desired generation behaviors into LMs using synthetic data."
   category: "school"
 
 - place: "LK Lab @ KAIST AI"
