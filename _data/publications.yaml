@@ -1,5 +1,5 @@
 papers:
-  - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
+  - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
     authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2402.11548"
