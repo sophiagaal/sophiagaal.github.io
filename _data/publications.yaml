@@ -15,14 +15,14 @@ papers:
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
-    authors: "Seongyun Lee, <b><u>Seungone Kim</u></b>, Sue Hyun Park, Geewook Kim, Minjoon Seo"
+    authors: "Seongyun Lee*, <b><u>Seungone Kim</u></b>*, Sue Hyun Park, Geewook Kim, Minjoon Seo"
     venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
     code: "https://github.com/kaistAI/prometheus-vision"
     selected: y
 
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
-    authors: "Guijin Son, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>"
+    authors: "Guijin Son*, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>*"
     venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2402.11597"
     code: "https://github.com/guijinSON/MTI-Bench"
@@ -36,7 +36,7 @@ papers:
     selected: y
 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
-    authors: "<b><u>Seungone Kim</u></b>, Jamin Shin, Yejin Cho, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, Minjoon Seo"
+    authors: "<b><u>Seungone Kim</u></b>*, Jamin Shin*, Yejin Cho*, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, Minjoon Seo"
     venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop"
     paper_pdf: "https://arxiv.org/abs/2310.08491"
     code: "https://github.com/kaistAI/Prometheus"
@@ -51,7 +51,7 @@ papers:
 
   - title: "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-tuning"
     year: "2023"
-    authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Doyoung Kim, Joel Jang, Seonghyeon Ye, Jamin Shin, Minjoon Seo"
+    authors: "<b><u>Seungone Kim</u></b>*, Se June Joo*, Doyoung Kim, Joel Jang, Seonghyeon Ye, Jamin Shin, Minjoon Seo"
     venue: "EMNLP 2023"
     paper_pdf: "https://arxiv.org/abs/2305.14045"
     code: "https://github.com/kaist-lklab/CoT-Collection"
@@ -73,7 +73,7 @@ papers:
 
   - title: "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization"
     year: "2022"
-    authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Hyungjoo Chae, Chaehyeong Kim, Seung-won Hwang, Jinyoung Yeo"
+    authors: "<b><u>Seungone Kim</u></b>*, Se June Joo*, Hyungjoo Chae*, Chaehyeong Kim, Seung-won Hwang, Jinyoung Yeo"
     venue: "COLING 2022"
     paper_pdf: "https://arxiv.org/abs/2209.00930"
     code: "https://github.com/SeungoneKim/SICK_Summarization"
