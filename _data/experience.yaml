@@ -14,24 +14,11 @@ experiences:
 - place: "KAIST AI"
   time: "Mar. 2023 - Aug. 2024 (Expected)"
   title: "M.S. in Artificial Intelligence (Advisor: Minjoon Seo)"
-  subtitle: "Working on inducing desired generation behaviors into LMs using synthetic data."
+  subtitle: "Working on inducing desired generation behaviors into LMs using synthetic data. Planning for Early Graduation (3 semesters)."
   category: "school"
-
-- place: "LK Lab @ KAIST AI"
-  time: "Jul. 2022 - Feb. 2023"
-  title: "Research Intern (Mentor: Joel Jang)"
-  subtitle: "Worked on building distributed expert language models to tackle the weakness of a single instruction tuned model."
-  category: "work"
-
-- place: "Data Intelligence Lab @ SNU"
-  time: "Sep. 2021 - Jun. 2022"
-  title: "Research Intern (Mentor: Dohyun Lee)"
-  subtitle: "Worked on building a multilingual language model for low-resource languages
-via continual cross-lingual pre-training."
-  category: "work"
 
 - place: "Yonsei University"
   time: "Mar. 2018 - Feb. 2023"
   title: "B.S. in Computer Science"
-  subtitle: "Early Graduation (7 semesters)"
+  subtitle: "Early Graduation (7 semesters)."
   category: "school"

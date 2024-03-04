@@ -1,23 +1,30 @@
 papers:
+  - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
+    authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2402.11548"
+    code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
+    selected: y
+
   - title: "LangBridge: Multilingual Reasoning without Multilingual Supervision"
     authors: "Dongkeun Yoon, Joel Jang, Sungdong Kim, <b><u>Seungone Kim</u></b>, Sheikh Shafayat, Minjoon Seo"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2401.06591"
+    venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2401.10695"
     code: "https://github.com/kaistAI/LangBridge"
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
     authors: "Seongyun Lee, <b><u>Seungone Kim</u></b>, Sue Hyun Park, Geewook Kim, Minjoon Seo"
-    venue: "Preprint Under Review"
+    venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
     code: "https://github.com/kaistAI/prometheus-vision"
     selected: y
 
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
     authors: "Guijin Son, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://drive.google.com/file/d/12MqVlNUeMOzrUVaidirm-fddBOuaHU14/view"
-    code: "https://github.com/guijinSON/compositional_instructions"
+    venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2402.11597"
+    code: "https://github.com/guijinSON/MTI-Bench"
     selected: y
 
   - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
@@ -29,14 +36,14 @@ papers:
 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
     authors: "<b><u>Seungone Kim</u></b>, Jamin Shin, Yejin Cho, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, Minjoon Seo"
-    venue: "ICLR 2024 & NeurIPS 2023 Instruction Following Workshop"
+    venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop"
     paper_pdf: "https://arxiv.org/abs/2310.08491"
     code: "https://github.com/kaistAI/Prometheus"
     selected: y
 
   - title: "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets"
     authors: "Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, <b><u>Seungone Kim</u></b>, Yongrae Jo, James Thorne, Juho Kim, Minjoon Seo"
-    venue: "ICLR 2024 & NeurIPS 2023 Instruction Following Workshop"
+    venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop"
     paper_pdf: "https://arxiv.org/abs/2307.10928"
     code: "https://github.com/kaistAI/FLASK"
     selected: y
