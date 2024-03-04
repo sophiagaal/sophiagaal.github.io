@@ -17,6 +17,12 @@ experiences:
   subtitle: "Working on inducing desired generation behaviors into LMs using synthetic data. Planning for Early Graduation (3 semesters)."
   category: "school"
 
+- place: "LK Lab @ KAIST AI"
+  time: "Jul. 2022 - Feb. 2023"
+  title: "Research Intern (Mentor: Joel Jang)"
+  subtitle: "Working on developing LMs that can generalize to novel tasks."
+  category: "work"
+
 - place: "Yonsei University"
   time: "Mar. 2018 - Feb. 2023"
   title: "B.S. in Computer Science"

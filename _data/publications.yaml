@@ -1,5 +1,6 @@
 papers:
   - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
+    year: "2024"
     authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2402.11548"
@@ -7,6 +8,7 @@ papers:
     selected: y
 
   - title: "LangBridge: Multilingual Reasoning without Multilingual Supervision"
+    year: "2024"
     authors: "Dongkeun Yoon, Joel Jang, Sungdong Kim, <b><u>Seungone Kim</u></b>, Sheikh Shafayat, Minjoon Seo"
     venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2401.10695"
@@ -14,6 +16,7 @@ papers:
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
+    year: "2024"
     authors: "Seongyun Lee, <b><u>Seungone Kim</u></b>, Sue Hyun Park, Geewook Kim, Minjoon Seo"
     venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
@@ -21,6 +24,7 @@ papers:
     selected: y
 
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
+    year: "2024"
     authors: "Guijin Son, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>"
     venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2402.11597"
@@ -28,6 +32,7 @@ papers:
     selected: y
 
   - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
+    year: "2024"
     authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Bill Yuchen Lin, Yizhong Wang, Jack Hessel, Luke Zettlemoyer, Hannaneh Hajishirzi, Yejin Choi, Prithviraj Ammanabrolu"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2310.11564"
@@ -35,6 +40,7 @@ papers:
     selected: y
 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
+    year: "2024"
     authors: "<b><u>Seungone Kim</u></b>, Jamin Shin, Yejin Cho, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, Minjoon Seo"
     venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop"
     paper_pdf: "https://arxiv.org/abs/2310.08491"
@@ -42,6 +48,7 @@ papers:
     selected: y
 
   - title: "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets"
+    year: "2024"
     authors: "Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, <b><u>Seungone Kim</u></b>, Yongrae Jo, James Thorne, Juho Kim, Minjoon Seo"
     venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop"
     paper_pdf: "https://arxiv.org/abs/2307.10928"
@@ -49,6 +56,7 @@ papers:
     selected: y
 
   - title: "The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-tuning"
+    year: "2023"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Doyoung Kim, Joel Jang, Seonghyeon Ye, Jamin Shin, Minjoon Seo"
     venue: "EMNLP 2023"
     paper_pdf: "https://arxiv.org/abs/2305.14045"
@@ -56,6 +64,7 @@ papers:
     selected: y
 
   - title: "Exploring the Benefits of Training Expert Language Models over Instruction Tuning"
+    year: "2023"
     authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Doyoung Kim, Lajanugen Logeswaran, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "ICML 2023"
     paper_pdf: "https://arxiv.org/abs/2302.03202"
@@ -63,6 +72,7 @@ papers:
     selected: y
   
   - title: "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification"
+    year: "2023"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Yul Jang, Hyungjoo Chae, Jinyoung Yeo"
     venue: "EACL 2023"
     paper_pdf: "https://arxiv.org/abs/2303.03628"
@@ -70,6 +80,7 @@ papers:
     selected: y
 
   - title: "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization"
+    year: "2022"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Hyungjoo Chae, Chaehyeong Kim, Seung-won Hwang, Jinyoung Yeo"
     venue: "COLING 2022"
     paper_pdf: "https://arxiv.org/abs/2209.00930"
