@@ -1,4 +1,10 @@
 experiences:
+- place: "CMU LTI"
+  time: "Sep. 2024 - Present"
+  title: "Ph.D. in Computer Science (Advisors: Graham Neubig and Sean Welleck)"
+  subtitle: "To be decided"
+  category: "school"
+
 - place: "AML Lab @ LG AI Research"
   time: "Jan. 2024 - Present"
   title: "Research Intern (Mentor: Kyungjae Lee)"
@@ -14,7 +20,7 @@ experiences:
 - place: "KAIST AI"
   time: "Mar. 2023 - Aug. 2024 (Expected)"
   title: "M.S. in Artificial Intelligence (Advisor: Minjoon Seo)"
-  subtitle: "Working on inducing desired generation behaviors into LMs using synthetic data. Planning for Early Graduation (3 semesters)."
+  subtitle: "Working on LLM Evaluation Frameworks. Early Graduation (3 semesters)."
   category: "school"
 
 - place: "LK Lab @ KAIST AI"
