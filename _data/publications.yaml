@@ -6,15 +6,22 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2404.10346"
     code: "https://github.com/hbin0701/Self-Explore"
     selected: y
+
   - title: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models"
-    year: "2024"
     authors: "Hyungjoo Chae, Yeonghyeon Kim, <b><u>Seungone Kim</u></b>, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, Taeyoon Kwon, Jiwan Chung, Youngjae Yu, Jinyoung Yeo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2404.02575"
     code: "https://github.com/kyle8581/LanguageModelsasCompilers"
     selected: y
+
+  - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
+    authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Bill Yuchen Lin, Yizhong Wang, Jack Hessel, Luke Zettlemoyer, Hannaneh Hajishirzi, Yejin Choi, Prithviraj Ammanabrolu"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2310.11564"
+    code: "https://github.com/joeljang/RLPHF"
+    selected: y
+
   - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-    year: "2024"
     authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2402.11548"
@@ -40,13 +47,6 @@ papers:
     venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2402.11597"
     code: "https://github.com/guijinSON/MTI-Bench"
-    selected: y
-
-  - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
-    authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Bill Yuchen Lin, Yizhong Wang, Jack Hessel, Luke Zettlemoyer, Hannaneh Hajishirzi, Yejin Choi, Prithviraj Ammanabrolu"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2310.11564"
-    code: "https://github.com/joeljang/RLPHF"
     selected: y
 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
