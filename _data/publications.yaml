@@ -1,6 +1,13 @@
 papers:
-  - title: "Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards"
+  - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
     year: "2024"
+    authors: "<b><u>Seungone Kim</u></b>*, Juyoung Suk*, Shayne Longpre, Bill Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2405.01535"
+    code: "https://github.com/prometheus-eval/prometheus-eval"
+    selected: y
+
+  - title: "Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards"
     authors: "Hyeonbin Hwang, Doyoung Kim, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2404.10346"
