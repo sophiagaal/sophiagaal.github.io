@@ -35,23 +35,23 @@ papers:
     code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
     selected: y
 
-  - title: "LangBridge: Multilingual Reasoning without Multilingual Supervision"
-    authors: "Dongkeun Yoon, Joel Jang, Sungdong Kim, <b><u>Seungone Kim</u></b>, Sheikh Shafayat, Minjoon Seo"
-    venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2401.10695"
-    code: "https://github.com/kaistAI/LangBridge"
-    selected: y
-
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
     authors: "Seongyun Lee*, <b><u>Seungone Kim</u></b>*, Sue Hyun Park, Geewook Kim, Minjoon Seo"
-    venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
+    venue: "ACL 2024 Findings & ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
     code: "https://github.com/kaistAI/prometheus-vision"
     selected: y
 
+  - title: "LangBridge: Multilingual Reasoning without Multilingual Supervision"
+    authors: "Dongkeun Yoon, Joel Jang, Sungdong Kim, <b><u>Seungone Kim</u></b>, Sheikh Shafayat, Minjoon Seo"
+    venue: "ACL 2024 & ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2401.10695"
+    code: "https://github.com/kaistAI/LangBridge"
+    selected: y
+
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
     authors: "Guijin Son*, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>*"
-    venue: "ICLR 2024 ME-FoMo Workshop & Preprint Under Review"
+    venue: "ACL 2024 & ICLR 2024 ME-FoMo Workshop"
     paper_pdf: "https://arxiv.org/abs/2402.11597"
     code: "https://github.com/guijinSON/MTI-Bench"
     selected: y
@@ -87,7 +87,7 @@ papers:
   
   - title: "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification"
     authors: "<b><u>Seungone Kim</u></b>, Se June Joo, Yul Jang, Hyungjoo Chae, Jinyoung Yeo"
-    venue: "EACL 2023"
+    venue: "EACL 2023 Demo Track"
     paper_pdf: "https://arxiv.org/abs/2303.03628"
     code: "https://github.com/SeungoneKim/CoTEVer"
     selected: y
