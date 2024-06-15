@@ -1,10 +1,24 @@
 papers:
-  - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
+  - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
     year: "2024"
+    authors: "<b><u>Seungone Kim</u></b>, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hanseok Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2406.05761"
+    code: "https://github.com/prometheus-eval/prometheus-eval/tree/main/BiGGen-Bench"
+    selected: y
+
+  - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
     authors: "<b><u>Seungone Kim</u></b>*, Juyoung Suk*, Shayne Longpre, Bill Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2405.01535"
     code: "https://github.com/prometheus-eval/prometheus-eval"
+    selected: y
+
+  - title: "Aligning to Thousands of Preferences via System Prompt Generalization"
+    authors: "Seongyun Lee*, Sue Hyun Park*, <b><u>Seungone Kim</u></b>, Minjoon Seo"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2405.17977"
+    code: "https://github.com/kaistAI/Janus"
     selected: y
 
   - title: "Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards"
