@@ -22,7 +22,7 @@ papers:
     selected: y
 
   - title: "Can Language Models Evaluate Human Written Text? Case Study on Korean Student Writing for Education"
-    authors: "Seungyoon Kim, Seungone Kim"
+    authors: "Seungyoon Kim, <b><u>Seungone Kim</u></b>"
     venue: "Preprint Under Review"
     paper_pdf: "https://www.arxiv.org/abs/2407.17022"
     code: "https://github.com/seungyoon1/llm-as-a-judge-human-eval/tree/main"
