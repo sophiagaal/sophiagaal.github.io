@@ -1,14 +1,14 @@
 experiences:
 - place: "CMU LTI"
-  time: "Sep. 2024 - Present"
+  time: "Aug. 2024 - Present"
   title: "Ph.D. in Computer Science (Advisors: Graham Neubig and Sean Welleck)"
-  subtitle: "To be decided"
+  subtitle: "Working on (V)LM Evaluation and Weak-to-Strong Generalization."
   category: "school"
 
 - place: "AML Lab @ LG AI Research"
   time: "Jan. 2024 - Jun. 2024"
   title: "Research Intern (Mentor: Kyungjae Lee)"
-  subtitle: "Working on building a comprehensive NLG benchmark."
+  subtitle: "Worked on building a comprehensive NLG benchmark that could mimic the fineness of human evaluation."
   category: "work"
 
 - place: "Language Lab @ Naver AI Lab"
