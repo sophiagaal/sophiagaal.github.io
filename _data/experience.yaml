@@ -20,13 +20,13 @@ experiences:
 - place: "KAIST AI"
   time: "Mar. 2023 - Aug. 2024 (Expected)"
   title: "M.S. in Artificial Intelligence (Advisor: Minjoon Seo)"
-  subtitle: "Working on LLM Evaluation Frameworks. Early Graduation (3 semesters)."
+  subtitle: "Worked on developing evaluator LM & VLMs and Chain-of-Thought fine-tuning. Early Graduation (3 semesters)."
   category: "school"
 
 - place: "LK Lab @ KAIST AI"
   time: "Jul. 2022 - Feb. 2023"
   title: "Research Intern (Mentor: Joel Jang)"
-  subtitle: "Worked on developing LMs that can generalize to novel tasks."
+  subtitle: "Worked on developing expert LMs that can generalize to novel tasks."
   category: "work"
 
 - place: "Yonsei University"
