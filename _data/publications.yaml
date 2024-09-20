@@ -2,7 +2,7 @@ papers:
   - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
     year: "2024"
     authors: "<b><u>Seungone Kim</u></b>*, Juyoung Suk*, Shayne Longpre, Bill Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
-    venue: "Preprint Under Review"
+    venue: "EMNLP 2024"
     paper_pdf: "https://arxiv.org/abs/2405.01535"
     code: "https://github.com/prometheus-eval/prometheus-eval"
     selected: y
@@ -44,14 +44,14 @@ papers:
 
   - title: "Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards"
     authors: "Hyeonbin Hwang, Doyoung Kim, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Minjoon Seo"
-    venue: "Preprint Under Review & ACL 2024 NLRSE Workshop (Oral)"
+    venue: "EMNLP 2024 Findings & ACL 2024 NLRSE Workshop (Oral)"
     paper_pdf: "https://arxiv.org/abs/2404.10346"
     code: "https://github.com/hbin0701/Self-Explore"
     selected: y
 
   - title: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models"
     authors: "Hyungjoo Chae, Yeonghyeon Kim, <b><u>Seungone Kim</u></b>, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, Taeyoon Kwon, Jiwan Chung, Youngjae Yu, Jinyoung Yeo"
-    venue: "Preprint Under Review & ACL 2024 NLRSE Workshop"
+    venue: "EMNLP 2024 & ACL 2024 NLRSE Workshop"
     paper_pdf: "https://arxiv.org/abs/2404.02575"
     code: "https://github.com/kyle8581/LanguageModelsasCompilers"
     selected: y
