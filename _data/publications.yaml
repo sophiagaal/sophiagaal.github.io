@@ -30,7 +30,7 @@ papers:
 
   - title: "Aligning to Thousands of Preferences via System Prompt Generalization"
     authors: "Seongyun Lee*, Sue Hyun Park*, <b><u>Seungone Kim</u></b>, Minjoon Seo"
-    venue: "Preprint Under Review & ACL 2024 ConvAI Workshop (Oral)"
+    venue: "ACL 2024 ConvAI Workshop (Oral)"
     paper_pdf: "https://arxiv.org/abs/2405.17977"
     code: "https://github.com/kaistAI/Janus"
     selected: y
@@ -44,35 +44,35 @@ papers:
 
   - title: "Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards"
     authors: "Hyeonbin Hwang, Doyoung Kim, <b><u>Seungone Kim</u></b>, Seonghyeon Ye, Minjoon Seo"
-    venue: "EMNLP 2024 Findings & ACL 2024 NLRSE Workshop (Oral)"
+    venue: "EMNLP 2024 Findings"
     paper_pdf: "https://arxiv.org/abs/2404.10346"
     code: "https://github.com/hbin0701/Self-Explore"
     selected: y
 
   - title: "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models"
     authors: "Hyungjoo Chae, Yeonghyeon Kim, <b><u>Seungone Kim</u></b>, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, Taeyoon Kwon, Jiwan Chung, Youngjae Yu, Jinyoung Yeo"
-    venue: "EMNLP 2024 & ACL 2024 NLRSE Workshop"
+    venue: "EMNLP 2024"
     paper_pdf: "https://arxiv.org/abs/2404.02575"
     code: "https://github.com/kyle8581/LanguageModelsasCompilers"
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
     authors: "Seongyun Lee*, <b><u>Seungone Kim</u></b>*, Sue Hyun Park, Geewook Kim, Minjoon Seo"
-    venue: "ACL 2024 Findings & ICLR 2024 ME-FoMo Workshop & ACL 2024 ALVR Workshop"
+    venue: "ACL 2024 Findings"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
     code: "https://github.com/kaistAI/prometheus-vision"
     selected: y
 
   - title: "LangBridge: Multilingual Reasoning without Multilingual Supervision"
     authors: "Dongkeun Yoon, Joel Jang, Sungdong Kim, <b><u>Seungone Kim</u></b>, Sheikh Shafayat, Minjoon Seo"
-    venue: "ACL 2024 & ICLR 2024 ME-FoMo Workshop & ACL 2024 KnowledgeNLP Workshop"
+    venue: "ACL 2024"
     paper_pdf: "https://arxiv.org/abs/2401.10695"
     code: "https://github.com/kaistAI/LangBridge"
     selected: y
 
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
     authors: "Guijin Son*, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, <b><u>Seungone Kim</u></b>*"
-    venue: "ACL 2024 & ICLR 2024 ME-FoMo Workshop & ACL 2024 SpLU-RoboNLP Workshop (Oral)"
+    venue: "ACL 2024"
     paper_pdf: "https://arxiv.org/abs/2402.11597"
     code: "https://github.com/guijinSON/MTI-Bench"
     selected: y
@@ -86,14 +86,14 @@ papers:
 
   - title: "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models"
     authors: "<b><u>Seungone Kim</u></b>*, Jamin Shin*, Yejin Cho*, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, Minjoon Seo"
-    venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop"
+    venue: "ICLR 2024"
     paper_pdf: "https://arxiv.org/abs/2310.08491"
     code: "https://github.com/kaistAI/Prometheus"
     selected: y
 
   - title: "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets"
     authors: "Seonghyeon Ye, Doyoung Kim, Sungdong Kim, Hyeonbin Hwang, <b><u>Seungone Kim</u></b>, Yongrae Jo, James Thorne, Juho Kim, Minjoon Seo"
-    venue: "ICLR 2024 & NeurIPS 2023 Instruction Workshop (Oral) & ICLR 2024 LLM Agents Workshop & ICLR 2024 Gen4DM Workshop"
+    venue: "ICLR 2024"
     paper_pdf: "https://arxiv.org/abs/2307.10928"
     code: "https://github.com/kaistAI/FLASK"
     selected: y
