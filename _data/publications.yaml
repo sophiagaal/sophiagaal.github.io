@@ -1,45 +1,17 @@
 papers:
-  - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
-    year: "2024"
-    authors: "<b><u>Seungone Kim</u></b>*, Juyoung Suk*, Shayne Longpre, Bill Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
-    venue: "EMNLP 2024"
-    paper_pdf: "https://arxiv.org/abs/2405.01535"
-    code: "https://github.com/prometheus-eval/prometheus-eval"
-    selected: y
-  
   - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
     authors: "<b><u>Seungone Kim</u></b>, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hanseok Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2406.05761"
     code: "https://github.com/prometheus-eval/prometheus-eval/tree/main/BiGGen-Bench"
     selected: y
-
-  - title: "Consent in Crisis: The Rapid Decline of the AI Data Commons"
-    authors: "Shayne Longpre, Robert Mahari, Ariel Lee, Campbell Lund, Hamidah Oderinwale, William Brannon, Nayan Saxena, Naana Obeng-Marnu, Tobin South, Cole Hunter, Kevin Klyman, Christopher Klamm, Hailey Schoelkopf, Nikhil Singh, Manuel Cherep, Ahmad Anis, An Dinh, Caroline Chitongo, Da Yin, Damien Sileo, Deividas Mataciunas, Diganta Misra, Emad Alghamdi, Enrico Shippole, Jianguo Zhang, Joanna Materzynska, Kun Qian, Kush Tiwary, Lester James Validad Miranda, Manan Dey, Minnie Liang, Mohammed Hamdy, Niklas Muennighoff, Seonghyeon Ye, <b><u>Seungone Kim</u></b>, Shrestha Mohanty, Vipul Gupta, Vivek Sharma, Vu Minh Chien, Xuhui Zhou, Yizhi Li, Caiming Xiong, Luis Villa, Stella Biderman, Hanlin Li, Daphne Ippolito, Sara Hooker, Jad Kabbara, Sandy Pentland"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2407.14933"
-    code: "https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection"
-    selected: y
-
-  - title: "Can Language Models Evaluate Human Written Text? Case Study on Korean Student Writing for Education"
-    authors: "Seungyoon Kim, <b><u>Seungone Kim</u></b>"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://www.arxiv.org/abs/2407.17022"
-    code: "https://github.com/seungyoon1/llm-as-a-judge-human-eval/tree/main"
-    selected: y
-
-  - title: "Aligning to Thousands of Preferences via System Prompt Generalization"
-    authors: "Seongyun Lee*, Sue Hyun Park*, <b><u>Seungone Kim</u></b>, Minjoon Seo"
-    venue: "ACL 2024 ConvAI Workshop (Oral)"
-    paper_pdf: "https://arxiv.org/abs/2405.17977"
-    code: "https://github.com/kaistAI/Janus"
-    selected: y
-
-  - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-    authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2402.11548"
-    code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
+    
+  - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
+    year: "2024"
+    authors: "<b><u>Seungone Kim</u></b>*, Juyoung Suk*, Shayne Longpre, Bill Yuchen Lin, Jamin Shin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
+    venue: "EMNLP 2024"
+    paper_pdf: "https://arxiv.org/abs/2405.01535"
+    code: "https://github.com/prometheus-eval/prometheus-eval"
     selected: y
 
   - title: "Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards"
@@ -54,6 +26,27 @@ papers:
     venue: "EMNLP 2024"
     paper_pdf: "https://arxiv.org/abs/2404.02575"
     code: "https://github.com/kyle8581/LanguageModelsasCompilers"
+    selected: y
+
+  - title: "Consent in Crisis: The Rapid Decline of the AI Data Commons"
+    authors: "Shayne Longpre, Robert Mahari, Ariel Lee, Campbell Lund, Hamidah Oderinwale, William Brannon, Nayan Saxena, Naana Obeng-Marnu, Tobin South, Cole Hunter, Kevin Klyman, Christopher Klamm, Hailey Schoelkopf, Nikhil Singh, Manuel Cherep, Ahmad Anis, An Dinh, Caroline Chitongo, Da Yin, Damien Sileo, Deividas Mataciunas, Diganta Misra, Emad Alghamdi, Enrico Shippole, Jianguo Zhang, Joanna Materzynska, Kun Qian, Kush Tiwary, Lester James Validad Miranda, Manan Dey, Minnie Liang, Mohammed Hamdy, Niklas Muennighoff, Seonghyeon Ye, <b><u>Seungone Kim</u></b>, Shrestha Mohanty, Vipul Gupta, Vivek Sharma, Vu Minh Chien, Xuhui Zhou, Yizhi Li, Caiming Xiong, Luis Villa, Stella Biderman, Hanlin Li, Daphne Ippolito, Sara Hooker, Jad Kabbara, Sandy Pentland"
+    venue: "NeurIPS 2024"
+    paper_pdf: "https://arxiv.org/abs/2407.14933"
+    code: "https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection"
+    selected: y
+
+  - title: "Aligning to Thousands of Preferences via System Prompt Generalization"
+    authors: "Seongyun Lee*, Sue Hyun Park*, <b><u>Seungone Kim</u></b>, Minjoon Seo"
+    venue: "NeurIPS 2024"
+    paper_pdf: "https://arxiv.org/abs/2405.17977"
+    code: "https://github.com/kaistAI/Janus"
+    selected: y
+
+  - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
+    authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2402.11548"
+    code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
