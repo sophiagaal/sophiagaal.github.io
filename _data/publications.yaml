@@ -1,10 +1,43 @@
 papers:
   - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
-    year: "2025"
+    year: 2025
     authors: "<b><u>Seungone Kim</u></b>, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hanseok Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2406.05761"
     code: "https://github.com/prometheus-eval/prometheus-eval/tree/main/BiGGen-Bench"
+    selected: y
+
+  - title: "Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages"
+    authors: "Xiang Yue, Yueqi Song, Akari Asai, <b><u>Seungone Kim</u></b>, Jean de Dieu Nyandwi, Simran Khanuja, Anjali Kantharuban, Lintang Sutawika, Sathyanarayanan Ramamoorthy, Graham Neubig"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2410.16153"
+    code: "https://github.com/neulab/Pangea"
+    selected: y
+
+  - title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
+    authors: "Guijin Son, Dongkeun Yoon, Juyoung Suk, Javier Aula-Blasco, Mano Aslan, Vu Trong Kim, Shayekh Bin Islam, Jaume Prats-Cristia, Luc'ia Tormo-Banuelos, <b><u>Seungone Kim</u></b>"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2410.17578"
+    code: "https://github.com/guijinSON/MM-Eval"
+    selected: y
+
+  - title: "Better Instruction-Following Through Minimum Bayes Risk"
+    authors: "Ian Wu, Patrick Fernandes, Amanda Bertsch, <b><u>Seungone Kim</u></b>, Sina Pakazad, Graham Neubig"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2410.02902"
+    selected: y
+
+  - title: "Bridging the Dat aProvenance Gap Across Text, Speech, and Video"
+    authors: "Shayne Longpre, Nikhil Singh, Manuel Cherep, Kushagra Tiwary, Joanna Materzynska, William Brannon, Robert Mahari, Manan Dey, Mohammed Hamdy, Nayan Saxena, Ahmad Mustafa Anis, Emad A. Alghamdi, Vu Minh Chien, Naana Obeng-Marnu, Da Yin, Kun Qian, Yizhi LI, Minnie Liang, An Dinh, Shrestha Mohanty, Deividas Mataciunas, Tobin South, Jianguo Zhang, Ariel N. Lee, Campbell S. Lund, Christopher Klamm, Damien Sileo, Diganta Misra, Enrico Shippole, Kevin Klyman, Lester James Validad Miranda, Niklas Muennighoff, Seonghyeon Ye, <b><u>Seungone Kim</u></b>, Vipul Gupta, Vivek Sharma, Xuhui Zhou, Caiming Xiong, Luis Villa, Stella Biderman, Alex Pentland, Sara Hooker, Jad Kabbara"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2410.02902"
+    selected: y
+
+  - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
+    authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2402.11548"
+    code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
     selected: y
     
   - title: "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models"
@@ -45,16 +78,9 @@ papers:
 
   - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
     authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Bill Yuchen Lin, Yizhong Wang, Jack Hessel, Luke Zettlemoyer, Hannaneh Hajishirzi, Yejin Choi, Prithviraj Ammanabrolu"
-    venue: "ArXiv Preprint"
+    venue: "NeurIPS 2024 AFM Workshop"
     paper_pdf: "https://arxiv.org/abs/2310.11564"
     code: "https://github.com/joeljang/RLPHF"
-    selected: y
-
-  - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-    authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2402.11548"
-    code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
     selected: y
 
   - title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-grained Evaluation"
