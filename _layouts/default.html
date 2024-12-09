@@ -6,8 +6,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }}</title>
-  <meta name="description" content="Homepage of Seungone Kim">
-  <meta name="author" content="Seungone Kim">
+  <meta name="description" content="Homepage of Mustafa Sameen">
+  <meta name="author" content="Mustafa Sameen">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -75,13 +75,13 @@
                 <i class="fa fa-download" aria-hidden="true"></i>
               </span>
               
-              <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">
-                <i class="ai fa ai-semantic-scholar-square" aria-hidden="true"></i>
-              </span>
+<!--              <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">-->
+<!--                <i class="ai fa ai-semantic-scholar-square" aria-hidden="true"></i>-->
+<!--              </span>-->
 
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai fa ai-google-scholar-square" aria-hidden="true"></i>
-              </span>
+<!--              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">-->
+<!--                <i class="ai fa ai-google-scholar-square" aria-hidden="true"></i>-->
+<!--              </span>-->
 
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
@@ -103,8 +103,20 @@
           {{ site.data.main_info.name }}
         </div>
         <div class="four columns">
-          Last updated on January 18, 2024
+          Last updated on <span id="last-updated"></span>
         </div>
+
+        <script>
+          // Get the current date
+          const currentDate = new Date();
+
+          // Format the date as "Month Day, Year" (e.g., December 8, 2024)
+          const options = { year: 'numeric', month: 'long', day: 'numeric' };
+          const formattedDate = currentDate.toLocaleDateString('en-US', options);
+
+          // Insert the formatted date into the HTML element
+          document.getElementById('last-updated').textContent = formattedDate;
+        </script>
         <div class="four columns">
           <!-- <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
             <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -112,11 +124,11 @@
           <span onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
             <i class="fa fa-download" aria-hidden="true"></i>
           </span>
-          <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-semantic-scholar-square" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
+<!--          <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">-->
+<!--            <i class="ai ai-semantic-scholar-square" aria-hidden="true"></i>-->
+<!--          </span>-->
+<!--          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">-->
+<!--            <i class="ai ai-google-scholar-square" aria-hidden="true"></i>-->
           </span>
           <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
