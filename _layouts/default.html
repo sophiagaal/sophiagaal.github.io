@@ -54,6 +54,24 @@
   <!-- <link rel="icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}>
   <link rel="shortcut icon" type="image/png" href={{ "/libs/icon.png" | prepend: site.baseurl }}> -->
   <link rel="shortcut icon" type="image/png" href=/assets/panda-bear.png>
+
+  <!-- Inline Styles for Smooth Scrolling and Active Link -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      scroll-margin-top: 80px;
+    }
+    .navbar-link.active {
+      color: #3498db;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+    .navbar-spacer {
+      height: 20px;
+    }
+  </style>
 </head>
 <body>
 
@@ -98,6 +116,7 @@
     <div class="navbar-spacer"></div>
     <nav class="navbar">
       <div class="container">
+        <button class="navbar-toggle">Menu</button>
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#about" | prepend: site.baseurl }}>About</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
@@ -105,41 +124,6 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>CV</a></li>
         </ul>
-      </div>
-      // For offset in navigation bar
-      <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      section {
-        scroll-margin-top: 80px;
-      }
-
-      .navbar-link.active {
-        color: #3498db;
-        font-weight: bold;
-        transition: color 0.3s ease-in-out;
-      }
-      </style>
-      // For smooth scrolling
-      <script>
-    document.querySelectorAll('.navbar-link').forEach(link => {
-      link.addEventListener('click', function(event) {
-        event.preventDefault();
-        document.querySelectorAll('.navbar-link').forEach(el => el.classList.remove('active'));
-        this.classList.add('active');
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-          const offset = -80;
-          const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-          const offsetPosition = elementPosition + offset;
-          window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-        }
-      });
-    });
-      </script>
     </nav>
 
     {{ content}}
@@ -153,17 +137,46 @@
           Last updated on <span id="last-updated"></span>
         </div>
 
+        <!-- Inline JS for Last Updated Date and Smooth Scrolling -->
         <script>
-          // Get the current date
-          const currentDate = new Date();
+          // Update "Last Updated" Date
+          document.addEventListener('DOMContentLoaded', function () {
+            const currentDate = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('last-updated').textContent = currentDate.toLocaleDateString('en-US', options);
+          });
 
-          // Format the date as "Month Day, Year" (e.g., December 8, 2024)
-          const options = { year: 'numeric', month: 'long', day: 'numeric' };
-          const formattedDate = currentDate.toLocaleDateString('en-US', options);
+          // Smooth Scrolling with Offset and Active Link Highlight
+          document.querySelectorAll('.navbar-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
 
-          // Insert the formatted date into the HTML element
-          document.getElementById('last-updated').textContent = formattedDate;
+              // Remove "active" class from all links
+              document.querySelectorAll('.navbar-link').forEach(el => el.classList.remove('active'));
+
+              // Add "active" class to the clicked link
+              this.classList.add('active');
+
+              // Extract the target id
+              const href = this.getAttribute('href');
+              const url = new URL(href, window.location.href);
+              const targetId = url.hash.substring(1);
+
+              const targetElement = document.getElementById(targetId);
+              if (targetElement) {
+                const offset = -80; // Adjust offset as needed
+                const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                const offsetPosition = elementPosition + offset;
+
+                window.scrollTo({
+                  top: offsetPosition,
+                  behavior: 'smooth'
+                });
+              }
+            });
+          });
         </script>
+
         <div class="four columns">
           <!-- <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
             <i class="fa fa-twitter" aria-hidden="true"></i>
