@@ -23,8 +23,8 @@ experiences:
   subtitle: "Applied NLP to Indigenous oral histories, linking cultural narratives with environmental data for conservation strategies."
   category: "work"
 
-- place: "Lexidyne LLC"
-  time: "May 2022 - Aug. 2022"
-  title: "Programming Analyst"
-  subtitle: "Developed a lung cancer prediction model with 85% accuracy and forecasted cancer trends using a population projection model."
-  category: "work"
+#- place: "Lexidyne LLC"
+#  time: "May 2022 - Aug. 2022"
+#  title: "Programming Analyst"
+#  subtitle: "Developed a lung cancer prediction model with 85% accuracy and forecasted cancer trends using a population projection model."
+#  category: "work"
