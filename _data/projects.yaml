@@ -3,4 +3,5 @@ projects:
     subtitle: "An Android Java quizz app."
     thumbnail: "/assets/profile-pics/profile.jpg"
     url: "https://github.com/mustafasameen/Javacademy"
+    frameworks: ["Android", "Java"]
     selected: y
