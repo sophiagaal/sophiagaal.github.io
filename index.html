@@ -281,7 +281,7 @@ layout: default
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       <div class="row">
         {% for project in selected_projects %}
-          <div class="four columns project-card">
+          <div class="six columns project-card">
             <div class="card">
               <div class="card-image-left">
                 <a href="{{ project.url }}">
@@ -309,7 +309,7 @@ layout: default
     <div class="tab-pane" id="projects-all">
       <div class="row">
         {% for project in site.data.projects.projects %}
-          <div class="four columns project-card">
+          <div class="six columns project-card">
             <div class="card">
               <div class="card-image-left">
                 <a href="{{ project.url }}">
@@ -355,7 +355,7 @@ layout: default
     }
     .card-image-left {
       flex: 1;
-      max-width: 40%;
+      max-width: 50%;
       overflow: hidden;
     }
     .card-image-left img {
@@ -364,77 +364,7 @@ layout: default
       object-fit: contain;
     }
     .card-content-right {
-      flex: 2;
-      padding: 15px;
-    }
-    .card-content-right h6 {
-      margin-bottom: 10px;
-      color: #333;
-    }
-    .card-content-right p {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 10px;
-    }
-    .frameworks {
-      margin-bottom: 10px;
-    }
-    .framework {
-      display: inline-block;
-      background: #e7e7e7;
-      color: #333;
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-size: 12px;
-      margin-right: 5px;
-    }
-    .github-link {
-      display: inline-block;
-      background: #333;
-      color: #fff;
-      padding: 8px 12px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 14px;
-      transition: background 0.2s ease-in-out;
-    }
-    .github-link:hover {
-      background: #444;
-    }
-  </style>
-
-</div>
-
-  <!-- Styles for Card View -->
-  <style>
-    .project-card {
-      margin-bottom: 20px;
-    }
-    .card {
-      display: flex;
-      flex-direction: row;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      background: #fff;
-      transition: transform 0.2s ease-in-out;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card-image-left {
-      flex: 1;
-      max-width: 40%;
-      overflow: hidden;
-    }
-    .card-image-left img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .card-content-right {
-      flex: 2;
+      flex: 1.5;
       padding: 15px;
     }
     .card-content-right h6 {
