@@ -1,6 +1,6 @@
 projects:
-  - title: 
-    subtitle: 
-    thumbnail: 
-    url: 
+  - title: "Javacademy"
+    subtitle: "An Android Java quizz app."
+    thumbnail: "/assets/profile-pics/profile.jpg"
+    url: "https://github.com/mustafasameen/Javacademy"
     selected: y
