@@ -289,16 +289,18 @@ layout: default
                 </a>
               </div>
               <div class="card-content">
-                <h6><b>{{ project.title }}</b></h6>
+                <div class="card-header">
+                  <h6><b>{{ project.title }}</b></h6>
+                  <a class="github-link-header" href="{{ project.url }}" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
                 <p>{{ project.subtitle }}</p>
                 <div class="frameworks">
                   {% for framework in project.frameworks limit: 3 %}
                     <span class="framework">{{ framework }}</span>
                   {% endfor %}
                 </div>
-                <a class="github-link" href="{{ project.url }}" target="_blank">
-                  <i class="fa fa-github"></i>
-                </a>
               </div>
             </div>
           </div>
@@ -317,16 +319,18 @@ layout: default
                 </a>
               </div>
               <div class="card-content">
-                <h6><b>{{ project.title }}</b></h6>
+                <div class="card-header">
+                  <h6><b>{{ project.title }}</b></h6>
+                  <a class="github-link-header" href="{{ project.url }}" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
                 <p>{{ project.subtitle }}</p>
                 <div class="frameworks">
                   {% for framework in project.frameworks limit: 3 %}
                     <span class="framework">{{ framework }}</span>
                   {% endfor %}
                 </div>
-                <a class="github-link" href="{{ project.url }}" target="_blank">
-                  <i class="fa fa-github"></i>
-                </a>
               </div>
             </div>
           </div>
@@ -368,8 +372,14 @@ layout: default
       position: relative;
       flex: 1;
     }
-    .card-content h6 {
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-bottom: 10px;
+    }
+    .card-header h6 {
+      margin: 0;
       color: #333;
     }
     .card-content p {
@@ -389,27 +399,18 @@ layout: default
       font-size: 12px;
       margin-right: 5px;
     }
-    .github-link {
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-      background: #333;
-      color: #fff;
-      padding: 8px 12px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 14px;
-      transition: background 0.2s ease-in-out;
-    }
-    .github-link i {
+    .github-link-header {
+      color: #333;
       font-size: 18px;
+      transition: color 0.2s ease-in-out;
     }
-    .github-link:hover {
-      background: #444;
+    .github-link-header:hover {
+      color: #444;
     }
   </style>
 
 </div>
+
 
 
 <!-- ========== RESUME ========== -->
