@@ -1,35 +1,7 @@
 projects:
   - title: "Javacademy"
     subtitle: "An Android Java quizz app."
-    thumbnail: "/assets/profile-pics/profile.jpg"
-    url: "https://github.com/mustafasameen/Javacademy"
-    frameworks: ["Android", "Java"]
-    selected: y
-
-  - title: "Javacademy"
-    subtitle: "An Android Java quizz app. Its great for learning Java."
-    thumbnail: "/assets/publications/2021_ack/sgmlp_figure.PNG"
-    url: "https://github.com/mustafasameen/Javacademy"
-    frameworks: ["Android", "Java", "Firebase"]
-    selected: y
-
-  - title: "Javacademy"
-    subtitle: "An Android Java quizz app."
-    thumbnail: "/assets/profile-pics/profile.jpg"
-    url: "https://github.com/mustafasameen/Javacademy"
-    frameworks: ["Android", "Java"]
-    selected: y
-
-  - title: "Javacademy"
-    subtitle: "An Android Java quizz app. Its great for learning Java."
-    thumbnail: "/assets/publications/2021_ack/sgmlp_figure.PNG"
-    url: "https://github.com/mustafasameen/Javacademy"
-    frameworks: ["Android", "Java", "Firebase"]
-    selected: y
-
-  - title: "Javacademy"
-    subtitle: "An Android Java quizz app. Its great for learning Java."
-    thumbnail: "/assets/publications/2021_ack/sgmlp_figure.PNG"
+    thumbnail: "/assets/projectss/javacademy.png"
     url: "https://github.com/mustafasameen/Javacademy"
     frameworks: ["Android", "Java", "Firebase"]
     selected: y
