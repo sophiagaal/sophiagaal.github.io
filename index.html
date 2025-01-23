@@ -295,7 +295,7 @@ layout: default
                     <i class="fa fa-github"></i>
                   </a>
                 </div>
-                <p>{{ project.subtitle }}</p>
+                <p class="subtitle">{{ project.subtitle }}</p>
                 <div class="frameworks">
                   {% for framework in project.frameworks limit: 3 %}
                     <span class="framework">{{ framework }}</span>
@@ -325,7 +325,7 @@ layout: default
                     <i class="fa fa-github"></i>
                   </a>
                 </div>
-                <p>{{ project.subtitle }}</p>
+                <p class="subtitle">{{ project.subtitle }}</p>
                 <div class="frameworks">
                   {% for framework in project.frameworks limit: 3 %}
                     <span class="framework">{{ framework }}</span>
@@ -353,6 +353,7 @@ layout: default
       transition: transform 0.2s ease-in-out;
       display: flex;
       flex-direction: column;
+      height: 400px;
     }
     .card:hover {
       transform: translateY(-5px);
@@ -371,6 +372,9 @@ layout: default
       padding: 15px;
       position: relative;
       flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     .card-header {
       display: flex;
@@ -382,10 +386,13 @@ layout: default
       margin: 0;
       color: #333;
     }
-    .card-content p {
+    .card-content .subtitle {
       font-size: 14px;
       color: #555;
       margin-bottom: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     .frameworks {
       margin-bottom: 10px;
@@ -410,7 +417,6 @@ layout: default
   </style>
 
 </div>
-
 
 
 <!-- ========== RESUME ========== -->
