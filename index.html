@@ -281,7 +281,7 @@ layout: default
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       <div class="row">
         {% for project in selected_projects %}
-          <div class="four columns project-card">
+          <div class="project-card">
             <div class="card">
               <div class="card-image">
                 <a href="{{ project.url }}">
@@ -311,7 +311,7 @@ layout: default
     <div class="tab-pane" id="projects-all">
       <div class="row">
         {% for project in site.data.projects.projects %}
-          <div class="four columns project-card">
+          <div class="project-card">
             <div class="card">
               <div class="card-image">
                 <a href="{{ project.url }}">
@@ -342,6 +342,8 @@ layout: default
   <!-- Styles for Card View -->
   <style>
     .project-card {
+      flex: 0 0 calc(33.333% - 20px);
+      box-sizing: border-box;
       margin-bottom: 20px;
     }
     .card {
@@ -419,11 +421,10 @@ layout: default
     .row {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between;
       gap: 20px;
-    }
-    .project-card {
-      flex: 1 0 calc(33.333% - 20px);
-      box-sizing: border-box;
+      margin: 0 auto;
+      width: 100%;
     }
   </style>
 
