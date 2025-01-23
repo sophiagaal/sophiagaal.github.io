@@ -1,7 +1,7 @@
 projects:
   - title: "Javacademy"
     subtitle: "An Android Java quizz app."
-    thumbnail: "/assets/projectss/javacademy.png"
+    thumbnail: "/assets/projects/javacademy.jpg"
     url: "https://github.com/mustafasameen/Javacademy"
     frameworks: ["Android", "Java", "Firebase"]
     selected: y
