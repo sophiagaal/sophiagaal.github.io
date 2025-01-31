@@ -1,4 +1,11 @@
 projects:
+  - title: "SCAC Esports Statistics Tracker"
+    subtitle: "Developed an OCR-powered system to extract match statistics from Apex Legends, Valorant, and Rocket League for the Southern Collegiate Athletic Conference (SCAC). Built a predictive model achieving 75% accuracy in match outcome forecasting and designed a centralized dashboard for real-time analytics, scheduling, and Twitch integration."
+    thumbnail: "/assets/projects/esports_tracker.png"
+    url: "https://github.com/jcandrews2/senior-capstone-project"
+    frameworks: ["React", "Flask", "OCR"]
+    selected: y
+
   - title: "Javacademy"
     subtitle: "An Android Java quizz app."
     thumbnail: "/assets/projects/javacademy.jpg"
