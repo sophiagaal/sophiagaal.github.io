@@ -17,5 +17,5 @@ projects:
     subtitle: "Interactive valentine's day proposal website."
     thumbnail: "/assets/projects/interactive-proposal.png"
     url: "https://github.com/mustafasameen/valentines-day-interactive-proposal"
-    frameworks: ["React", "CSS3", "Framer-Motion"]
+    frameworks: ["React", "CSS3", "Framer"]
     selected: y
