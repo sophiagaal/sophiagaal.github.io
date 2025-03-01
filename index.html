@@ -45,26 +45,19 @@ layout: default
 </div>
 
 <!-- ========== News ========== -->
-<div class="docs-section" id="news">>
+<div class="docs-section" id="news">
   <h5>News</h5>
-  <div class="row no-gutters">
-    <div class="col-12 col-md-12 text-md-left">
-      <b class="bbold" style="color:#fa8072;">Dec 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
-      To be updated!
+  
+  <div class="news-item">
+    <div class="news-date">
+      <b class="bbold" style="color:#fa8072;">March 2025</b>
+    </div>
+    <div class="news-content">
+      I presented my <a href="https://cctigers-my.sharepoint.com/:p:/g/personal/s_sameen_coloradocollege_edu/ETCbnQyS37hMkuc1TsVX9SIBDj2jyhU9gb2teqpup-RRcg?e=NZ6l7d">thesis progress report</a> on AI autoformalization system at the <a href="https://www.pikespeak.edu/programs/mathematics/math-conference.php">PPRUMC</a>.
     </div>
   </div>
-  <!--  <div class="row no-gutters">-->
-  <!--    <div class="col-12 col-md-12 text-md-left">-->
-  <!--      <b class="bbold" style="color:#fa8072;">October 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;-->
-  <!--      Our <a href="https://arxiv.org/abs/2410.02902">MBR Decoding / Distillation</a>, <a href="https://arxiv.org/abs/2410.17578">MM-Eval</a>, and <a href="https://arxiv.org/abs/2410.16153">Pangea</a> papers are released!-->
-  <!--    </div>-->
-  <!--  </div>-->
-  <!--  <div class="row no-gutters">-->
-  <!--    <div class="col-12 col-md-12 text-md-left">-->
-  <!--      <b class="bbold" style="color:#fa8072;">September 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;-->
-  <!--      Our <a href="https://arxiv.org/abs/2405.17977">System Message Generalization</a> and <a href="https://arxiv.org/abs/2407.14933">Consent in Crisis</a> papers got accepted to <b><a href="https://neurips.cc/">NeurIPS 2024</a></b>!-->
-  <!--    </div>-->
-  <!--  </div>-->
+  
+  <!-- Commented out news items can follow the same structure -->
 </div>
 <p></p>
 
@@ -157,7 +150,7 @@ layout: default
         </div>
       </div>
       {% endfor %}
-      <h6><b><i>( * indicates equal contribution )</i></b></h6>
+      <!-- <h6><b><i>( * indicates equal contribution )</i></b></h6> -->
     </div>
 
     <!-- <div class="tab-pane" id="papers-all">
@@ -276,23 +269,33 @@ layout: default
 
     <!-- Styles for Card View -->
     <style>
-      .project-card {
-        flex: 0 0 calc(33.333% - 20px);
-        box-sizing: border-box;
-        margin-bottom: 20px;
-      }
+      .row {
+      display: grid;
+      /* 
+        Each column is at least 280px wide, 
+        and will expand to fill the available space. 
+      */
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px; /* space between cards */
+      margin: 0 auto;
+      width: 100%;
+    }
 
-      .card {
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        background: #fff;
-        transition: transform 0.2s ease-in-out;
-        display: flex;
-        flex-direction: column;
-        height: 420px;
-      }
+      .project-card {
+      display: flex;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      background: #fff;
+      transition: transform 0.2s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      /* Let the card's height adjust to content */
+    }
 
       .card:hover {
         transform: translateY(-5px);
@@ -365,15 +368,6 @@ layout: default
 
       .github-link-header:hover {
         color: #444;
-      }
-
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
-        margin: 0 auto;
-        width: 100%;
       }
     </style>
 
