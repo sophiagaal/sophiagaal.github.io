@@ -1,11 +1,10 @@
 papers:
-#  - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
-#    year: 2025
-#    authors: "<b><u>Seungone Kim</u></b>, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hanseok Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
-#    venue: "Preprint Under Review"
-#    paper_pdf: "https://arxiv.org/abs/2406.05761"
-#    code: "https://github.com/prometheus-eval/prometheus-eval/tree/main/BiGGen-Bench"
-#    selected: y
+  - title: "Type-Theoretic Foundations for Enhancing RAG Efficiency and Correctness"
+    year: 2025
+    authors: "<b><u>Mustafa Sameen</u></b>"
+    venue: "TYPES 2025"
+    paper_pdf: ""
+    selected: y
 #
 #  - title: "Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages"
 #    authors: "Xiang Yue, Yueqi Song, Akari Asai, <b><u>Seungone Kim</u></b>, Jean de Dieu Nyandwi, Simran Khanuja, Anjali Kantharuban, Lintang Sutawika, Sathyanarayanan Ramamoorthy, Graham Neubig"
