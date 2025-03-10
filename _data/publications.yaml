@@ -1,7 +1,7 @@
 papers:
   - title: "Type-Theoretic Foundations for Enhancing RAG Efficiency and Correctness"
     year: 2025
-    authors: "<b><u>Mustafa Sameen</u></b>"
+    authors: '<p style="color:#808080;">Mustafa Sameen</p>'
     venue: "TYPES 2025"
     paper_pdf: ""
     selected: y
